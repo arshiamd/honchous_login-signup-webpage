@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/honchous_login-signup-webpage/precache-manifest.b4f2a69454567af8028a8047777aff9f.js"
+  "/honchous_login-signup-webpage/precache-manifest.ce6a723943bf6e33096c7b536cba76e4.js"
 );
 
 self.addEventListener('message', (event) => {
