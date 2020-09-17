@@ -21,11 +21,11 @@ export default class SignUp extends Component {
                 </div>
                 <div className="form-group">
                     <label>Phone number</label>
-                    <input type="email" className="form-control" placeholder="Enter your phone number" />
+                    <input type="tel" className="form-control" placeholder="Enter your phone number" />
                 </div>
                 <div className="form-group">
                     <label>Password</label>
-                    <input type="email" className="form-control" placeholder="Password" />
+                    <input type="password" className="form-control" placeholder="Password" />
                 </div>
                 <div className="form-group">
                     <label>Confirm password</label>
