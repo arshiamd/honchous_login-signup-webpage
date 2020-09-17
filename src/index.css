@@ -1,13 +1,126 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+:root {
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-white);
+  margin: 0;
+  display: flex;
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(bg-image.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+p,h1,h2,h3,h4,h5,h6,label,span{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 1.2rem;
+  color: var(--color-white);
+}
+
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+} 
+
+ .auth-inner {
+  width: 450px;
+  margin: auto;
+  border-radius: 15px;
+  transition: all .3s;
+  
+} 
+
+.auth-wrapper h3 {
+  /* margin-top:10px; */
+  text-align: center;
+  position: relative;
+  top: 15px;
+  line-height: 1;
+  padding-bottom: 25px;
+}
+
+.account {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 20px;
+  color: #7f7d7d;
+}
+form {
+  width: 450px;
+  margin: auto;
+  background: var(--color-darkblue-alpha);
+  padding: 2.5rem 0.625rem;
+  padding: 40px 55px 45px 55px;
+}
+@media (max-width:299px){
+  body, html, .App, #root, .auth-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 40px;
+  }
+}
+@media (min-width:300px) and (max-width:499px){
+  body, html, .App, #root, .auth-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 10px;
+  }
+}
+@media (min-width:500px){
+  body, html, .App, #root, .auth-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+  }
+  .auth-wrapper h3 {
+    margin-top:20px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    line-height: 1;
+    padding-top: 20px;
+  }
 }
