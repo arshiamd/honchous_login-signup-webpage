@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/honchous_login-signup-webpage/static/css/main.1697ddbe.chunk.css",
+    "main.js": "/honchous_login-signup-webpage/static/js/main.d3baa412.chunk.js",
+    "main.js.map": "/honchous_login-signup-webpage/static/js/main.d3baa412.chunk.js.map",
+    "runtime-main.js": "/honchous_login-signup-webpage/static/js/runtime-main.f69b51e1.js",
+    "runtime-main.js.map": "/honchous_login-signup-webpage/static/js/runtime-main.f69b51e1.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/honchous_login-signup-webpage/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.078bc614.chunk.js": "/honchous_login-signup-webpage/static/js/2.078bc614.chunk.js",
+    "static/js/2.078bc614.chunk.js.map": "/honchous_login-signup-webpage/static/js/2.078bc614.chunk.js.map",
+    "index.html": "/honchous_login-signup-webpage/index.html",
+    "precache-manifest.7b3f1fe5122d4a0eeaa4f58cd3c413bd.js": "/honchous_login-signup-webpage/precache-manifest.7b3f1fe5122d4a0eeaa4f58cd3c413bd.js",
+    "service-worker.js": "/honchous_login-signup-webpage/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/honchous_login-signup-webpage/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.1697ddbe.chunk.css.map": "/honchous_login-signup-webpage/static/css/main.1697ddbe.chunk.css.map",
+    "static/js/2.078bc614.chunk.js.LICENSE.txt": "/honchous_login-signup-webpage/static/js/2.078bc614.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/honchous_login-signup-webpage/static/media/bg-image.5f63ec1d.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f69b51e1.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.078bc614.chunk.js",
+    "static/css/main.1697ddbe.chunk.css",
+    "static/js/main.d3baa412.chunk.js"
+  ]
+}
